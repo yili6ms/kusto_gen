@@ -180,9 +180,7 @@ fn join_tokens(tokens: &[TokenInfo]) -> String {
             || text.starts_with('.');
         let no_space_after =
             out.ends_with('(') || out.ends_with('[') || out.ends_with('{') || out.ends_with('.');
-        if out.is_empty() {
-            out.push_str(text);
-        } else if no_space_before || no_space_after {
+        if out.is_empty() || no_space_before || no_space_after {
             out.push_str(text);
         } else {
             out.push(' ');

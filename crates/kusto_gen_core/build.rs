@@ -23,14 +23,11 @@ fn emit_rust_line_count() {
         .into_iter()
         .filter_map(Result::ok)
     {
-        if entry.file_type().is_file() {
-            if let Some(ext) = entry.path().extension() {
-                if ext == "rs" {
-                    if let Ok(contents) = std::fs::read_to_string(entry.path()) {
-                        total += contents.lines().count();
-                    }
-                }
-            }
+        if entry.file_type().is_file()
+            && entry.path().extension().is_some_and(|ext| ext == "rs")
+            && let Ok(contents) = std::fs::read_to_string(entry.path())
+        {
+            total += contents.lines().count();
         }
     }
     println!("cargo:warning=Rust LOC (kusto_gen_core): {total}");
