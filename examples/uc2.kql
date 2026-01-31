@@ -1,0 +1,9 @@
+let Failed =
+    SecurityEvent
+    | where EventID == 4625
+    | summarize Failures=count() by Account;
+let Success =
+    SecurityEvent
+    | where EventID == 4624;
+Failed
+| join Success on Account

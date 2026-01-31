@@ -1,0 +1,4 @@
+SecurityEvent
+| where EventID == 4625
+| summarize Failures = count() by Account, bin(TimeGenerated, 5m)
+| where Failures > 10

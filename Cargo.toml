@@ -1,0 +1,7 @@
+[workspace]
+resolver = "2"
+members = [
+  "crates/kusto_gen_core",
+  "crates/kusto_gen_cli",
+  "crates/kusto_gen_web",
+]

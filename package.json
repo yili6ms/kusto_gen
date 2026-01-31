@@ -1,0 +1,10 @@
+{
+  "name": "kusto_gen_web_ui",
+  "private": true,
+  "devDependencies": {
+    "tailwindcss": "^3.4.17"
+  },
+  "scripts": {
+    "build:css": "tailwindcss -c crates/kusto_gen_web/tailwind.config.js -i crates/kusto_gen_web/static/input.css -o crates/kusto_gen_web/static/tailwind.css"
+  }
+}

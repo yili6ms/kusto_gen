@@ -1,0 +1,4 @@
+SigninLogs
+| extend Hour = datetime_part("hour", TimeGenerated)
+| where Hour < 6 or Hour > 20
+| where UserPrincipalName contains "admin"

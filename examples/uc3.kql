@@ -1,0 +1,3 @@
+SigninLogs
+| summarize Countries = dcount(Location) by UserPrincipalName
+| where Countries > 3

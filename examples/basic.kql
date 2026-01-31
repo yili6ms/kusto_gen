@@ -1,0 +1,3 @@
+StormEvents
+| where State == 'WA'
+| summarize count() by State

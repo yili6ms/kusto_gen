@@ -1,0 +1,908 @@
+{
+  "kind": "rule_1",
+  "text": null,
+  "children": [
+    {
+      "kind": "rule_2",
+      "text": null,
+      "children": [
+        {
+          "kind": "rule_3",
+          "text": null,
+          "children": [
+            {
+              "kind": "rule_37",
+              "text": null,
+              "children": [
+                {
+                  "kind": "rule_38",
+                  "text": null,
+                  "children": [
+                    {
+                      "kind": "rule_39",
+                      "text": null,
+                      "children": [
+                        {
+                          "kind": "rule_42",
+                          "text": null,
+                          "children": [
+                            {
+                              "kind": "rule_188",
+                              "text": null,
+                              "children": [
+                                {
+                                  "kind": "rule_189",
+                                  "text": null,
+                                  "children": [
+                                    {
+                                      "kind": "rule_191",
+                                      "text": null,
+                                      "children": [
+                                        {
+                                          "kind": "rule_193",
+                                          "text": null,
+                                          "children": [
+                                            {
+                                              "kind": "rule_198",
+                                              "text": null,
+                                              "children": [
+                                                {
+                                                  "kind": "rule_199",
+                                                  "text": null,
+                                                  "children": [
+                                                    {
+                                                      "kind": "rule_201",
+                                                      "text": null,
+                                                      "children": [
+                                                        {
+                                                          "kind": "rule_203",
+                                                          "text": null,
+                                                          "children": [
+                                                            {
+                                                              "kind": "rule_204",
+                                                              "text": null,
+                                                              "children": [
+                                                                {
+                                                                  "kind": "rule_208",
+                                                                  "text": null,
+                                                                  "children": [
+                                                                    {
+                                                                      "kind": "rule_476",
+                                                                      "text": null,
+                                                                      "children": []
+                                                                    },
+                                                                    {
+                                                                      "kind": "rule_209",
+                                                                      "text": null,
+                                                                      "children": [
+                                                                        {
+                                                                          "kind": "rule_210",
+                                                                          "text": null,
+                                                                          "children": [
+                                                                            {
+                                                                              "kind": "rule_225",
+                                                                              "text": null,
+                                                                              "children": [
+                                                                                {
+                                                                                  "kind": "rule_226",
+                                                                                  "text": null,
+                                                                                  "children": [
+                                                                                    {
+                                                                                      "kind": "rule_257",
+                                                                                      "text": null,
+                                                                                      "children": [
+                                                                                        {
+                                                                                          "kind": "rule_266",
+                                                                                          "text": null,
+                                                                                          "children": [
+                                                                                            {
+                                                                                              "kind": "rule_261",
+                                                                                              "text": null,
+                                                                                              "children": [
+                                                                                                {
+                                                                                                  "kind": "IDENTIFIER",
+                                                                                                  "text": "StormEvents",
+                                                                                                  "children": []
+                                                                                                }
+                                                                                              ]
+                                                                                            }
+                                                                                          ]
+                                                                                        }
+                                                                                      ]
+                                                                                    },
+                                                                                    {
+                                                                                      "kind": "rule_484",
+                                                                                      "text": null,
+                                                                                      "children": []
+                                                                                    }
+                                                                                  ]
+                                                                                }
+                                                                              ]
+                                                                            }
+                                                                          ]
+                                                                        },
+                                                                        {
+                                                                          "kind": "rule_510",
+                                                                          "text": null,
+                                                                          "children": []
+                                                                        }
+                                                                      ]
+                                                                    }
+                                                                  ]
+                                                                },
+                                                                {
+                                                                  "kind": "rule_475",
+                                                                  "text": null,
+                                                                  "children": []
+                                                                }
+                                                              ]
+                                                            }
+                                                          ]
+                                                        },
+                                                        {
+                                                          "kind": "rule_474",
+                                                          "text": null,
+                                                          "children": []
+                                                        }
+                                                      ]
+                                                    },
+                                                    {
+                                                      "kind": "rule_473",
+                                                      "text": null,
+                                                      "children": []
+                                                    }
+                                                  ]
+                                                },
+                                                {
+                                                  "kind": "rule_472",
+                                                  "text": null,
+                                                  "children": []
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "kind": "rule_470",
+                                          "text": null,
+                                          "children": []
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "kind": "rule_469",
+                                      "text": null,
+                                      "children": []
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "kind": "rule_326",
+                          "text": null,
+                          "children": [
+                            {
+                              "kind": "rule_40",
+                              "text": null,
+                              "children": [
+                                {
+                                  "kind": "BAR",
+                                  "text": "|",
+                                  "children": []
+                                },
+                                {
+                                  "kind": "rule_43",
+                                  "text": null,
+                                  "children": [
+                                    {
+                                      "kind": "rule_178",
+                                      "text": null,
+                                      "children": [
+                                        {
+                                          "kind": "WHERE",
+                                          "text": "where",
+                                          "children": []
+                                        },
+                                        {
+                                          "kind": "rule_465",
+                                          "text": null,
+                                          "children": []
+                                        },
+                                        {
+                                          "kind": "rule_188",
+                                          "text": null,
+                                          "children": [
+                                            {
+                                              "kind": "rule_189",
+                                              "text": null,
+                                              "children": [
+                                                {
+                                                  "kind": "rule_191",
+                                                  "text": null,
+                                                  "children": [
+                                                    {
+                                                      "kind": "rule_193",
+                                                      "text": null,
+                                                      "children": [
+                                                        {
+                                                          "kind": "rule_194",
+                                                          "text": null,
+                                                          "children": [
+                                                            {
+                                                              "kind": "rule_198",
+                                                              "text": null,
+                                                              "children": [
+                                                                {
+                                                                  "kind": "rule_199",
+                                                                  "text": null,
+                                                                  "children": [
+                                                                    {
+                                                                      "kind": "rule_201",
+                                                                      "text": null,
+                                                                      "children": [
+                                                                        {
+                                                                          "kind": "rule_203",
+                                                                          "text": null,
+                                                                          "children": [
+                                                                            {
+                                                                              "kind": "rule_204",
+                                                                              "text": null,
+                                                                              "children": [
+                                                                                {
+                                                                                  "kind": "rule_208",
+                                                                                  "text": null,
+                                                                                  "children": [
+                                                                                    {
+                                                                                      "kind": "rule_476",
+                                                                                      "text": null,
+                                                                                      "children": []
+                                                                                    },
+                                                                                    {
+                                                                                      "kind": "rule_209",
+                                                                                      "text": null,
+                                                                                      "children": [
+                                                                                        {
+                                                                                          "kind": "rule_210",
+                                                                                          "text": null,
+                                                                                          "children": [
+                                                                                            {
+                                                                                              "kind": "rule_225",
+                                                                                              "text": null,
+                                                                                              "children": [
+                                                                                                {
+                                                                                                  "kind": "rule_226",
+                                                                                                  "text": null,
+                                                                                                  "children": [
+                                                                                                    {
+                                                                                                      "kind": "rule_257",
+                                                                                                      "text": null,
+                                                                                                      "children": [
+                                                                                                        {
+                                                                                                          "kind": "rule_266",
+                                                                                                          "text": null,
+                                                                                                          "children": [
+                                                                                                            {
+                                                                                                              "kind": "rule_261",
+                                                                                                              "text": null,
+                                                                                                              "children": [
+                                                                                                                {
+                                                                                                                  "kind": "IDENTIFIER",
+                                                                                                                  "text": "State",
+                                                                                                                  "children": []
+                                                                                                                }
+                                                                                                              ]
+                                                                                                            }
+                                                                                                          ]
+                                                                                                        }
+                                                                                                      ]
+                                                                                                    },
+                                                                                                    {
+                                                                                                      "kind": "rule_484",
+                                                                                                      "text": null,
+                                                                                                      "children": []
+                                                                                                    }
+                                                                                                  ]
+                                                                                                }
+                                                                                              ]
+                                                                                            }
+                                                                                          ]
+                                                                                        },
+                                                                                        {
+                                                                                          "kind": "rule_510",
+                                                                                          "text": null,
+                                                                                          "children": []
+                                                                                        }
+                                                                                      ]
+                                                                                    }
+                                                                                  ]
+                                                                                },
+                                                                                {
+                                                                                  "kind": "rule_475",
+                                                                                  "text": null,
+                                                                                  "children": []
+                                                                                }
+                                                                              ]
+                                                                            }
+                                                                          ]
+                                                                        },
+                                                                        {
+                                                                          "kind": "rule_474",
+                                                                          "text": null,
+                                                                          "children": []
+                                                                        }
+                                                                      ]
+                                                                    },
+                                                                    {
+                                                                      "kind": "rule_473",
+                                                                      "text": null,
+                                                                      "children": []
+                                                                    }
+                                                                  ]
+                                                                },
+                                                                {
+                                                                  "kind": "rule_472",
+                                                                  "text": null,
+                                                                  "children": []
+                                                                }
+                                                              ]
+                                                            },
+                                                            {
+                                                              "kind": "EQUALEQUAL",
+                                                              "text": "==",
+                                                              "children": []
+                                                            },
+                                                            {
+                                                              "kind": "rule_198",
+                                                              "text": null,
+                                                              "children": [
+                                                                {
+                                                                  "kind": "rule_199",
+                                                                  "text": null,
+                                                                  "children": [
+                                                                    {
+                                                                      "kind": "rule_201",
+                                                                      "text": null,
+                                                                      "children": [
+                                                                        {
+                                                                          "kind": "rule_203",
+                                                                          "text": null,
+                                                                          "children": [
+                                                                            {
+                                                                              "kind": "rule_204",
+                                                                              "text": null,
+                                                                              "children": [
+                                                                                {
+                                                                                  "kind": "rule_208",
+                                                                                  "text": null,
+                                                                                  "children": [
+                                                                                    {
+                                                                                      "kind": "rule_476",
+                                                                                      "text": null,
+                                                                                      "children": []
+                                                                                    },
+                                                                                    {
+                                                                                      "kind": "rule_209",
+                                                                                      "text": null,
+                                                                                      "children": [
+                                                                                        {
+                                                                                          "kind": "rule_210",
+                                                                                          "text": null,
+                                                                                          "children": [
+                                                                                            {
+                                                                                              "kind": "rule_225",
+                                                                                              "text": null,
+                                                                                              "children": [
+                                                                                                {
+                                                                                                  "kind": "rule_272",
+                                                                                                  "text": null,
+                                                                                                  "children": [
+                                                                                                    {
+                                                                                                      "kind": "rule_287",
+                                                                                                      "text": null,
+                                                                                                      "children": [
+                                                                                                        {
+                                                                                                          "kind": "STRINGLITERAL",
+                                                                                                          "text": "'WA'",
+                                                                                                          "children": []
+                                                                                                        },
+                                                                                                        {
+                                                                                                          "kind": "rule_501",
+                                                                                                          "text": null,
+                                                                                                          "children": []
+                                                                                                        }
+                                                                                                      ]
+                                                                                                    }
+                                                                                                  ]
+                                                                                                }
+                                                                                              ]
+                                                                                            }
+                                                                                          ]
+                                                                                        },
+                                                                                        {
+                                                                                          "kind": "rule_510",
+                                                                                          "text": null,
+                                                                                          "children": []
+                                                                                        }
+                                                                                      ]
+                                                                                    }
+                                                                                  ]
+                                                                                },
+                                                                                {
+                                                                                  "kind": "rule_475",
+                                                                                  "text": null,
+                                                                                  "children": []
+                                                                                }
+                                                                              ]
+                                                                            }
+                                                                          ]
+                                                                        },
+                                                                        {
+                                                                          "kind": "rule_474",
+                                                                          "text": null,
+                                                                          "children": []
+                                                                        }
+                                                                      ]
+                                                                    },
+                                                                    {
+                                                                      "kind": "rule_473",
+                                                                      "text": null,
+                                                                      "children": []
+                                                                    }
+                                                                  ]
+                                                                },
+                                                                {
+                                                                  "kind": "rule_472",
+                                                                  "text": null,
+                                                                  "children": []
+                                                                }
+                                                              ]
+                                                            }
+                                                          ]
+                                                        }
+                                                      ]
+                                                    },
+                                                    {
+                                                      "kind": "rule_470",
+                                                      "text": null,
+                                                      "children": []
+                                                    }
+                                                  ]
+                                                },
+                                                {
+                                                  "kind": "rule_469",
+                                                  "text": null,
+                                                  "children": []
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "kind": "rule_326",
+                              "text": null,
+                              "children": [
+                                {
+                                  "kind": "rule_40",
+                                  "text": null,
+                                  "children": [
+                                    {
+                                      "kind": "BAR",
+                                      "text": "|",
+                                      "children": []
+                                    },
+                                    {
+                                      "kind": "rule_43",
+                                      "text": null,
+                                      "children": [
+                                        {
+                                          "kind": "rule_166",
+                                          "text": null,
+                                          "children": [
+                                            {
+                                              "kind": "SUMMARIZE",
+                                              "text": "summarize",
+                                              "children": []
+                                            },
+                                            {
+                                              "kind": "rule_451",
+                                              "text": null,
+                                              "children": []
+                                            },
+                                            {
+                                              "kind": "rule_453",
+                                              "text": null,
+                                              "children": [
+                                                {
+                                                  "kind": "rule_185",
+                                                  "text": null,
+                                                  "children": [
+                                                    {
+                                                      "kind": "rule_467",
+                                                      "text": null,
+                                                      "children": []
+                                                    },
+                                                    {
+                                                      "kind": "rule_188",
+                                                      "text": null,
+                                                      "children": [
+                                                        {
+                                                          "kind": "rule_189",
+                                                          "text": null,
+                                                          "children": [
+                                                            {
+                                                              "kind": "rule_191",
+                                                              "text": null,
+                                                              "children": [
+                                                                {
+                                                                  "kind": "rule_193",
+                                                                  "text": null,
+                                                                  "children": [
+                                                                    {
+                                                                      "kind": "rule_198",
+                                                                      "text": null,
+                                                                      "children": [
+                                                                        {
+                                                                          "kind": "rule_199",
+                                                                          "text": null,
+                                                                          "children": [
+                                                                            {
+                                                                              "kind": "rule_201",
+                                                                              "text": null,
+                                                                              "children": [
+                                                                                {
+                                                                                  "kind": "rule_203",
+                                                                                  "text": null,
+                                                                                  "children": [
+                                                                                    {
+                                                                                      "kind": "rule_204",
+                                                                                      "text": null,
+                                                                                      "children": [
+                                                                                        {
+                                                                                          "kind": "rule_208",
+                                                                                          "text": null,
+                                                                                          "children": [
+                                                                                            {
+                                                                                              "kind": "rule_476",
+                                                                                              "text": null,
+                                                                                              "children": []
+                                                                                            },
+                                                                                            {
+                                                                                              "kind": "rule_209",
+                                                                                              "text": null,
+                                                                                              "children": [
+                                                                                                {
+                                                                                                  "kind": "rule_210",
+                                                                                                  "text": null,
+                                                                                                  "children": [
+                                                                                                    {
+                                                                                                      "kind": "rule_225",
+                                                                                                      "text": null,
+                                                                                                      "children": [
+                                                                                                        {
+                                                                                                          "kind": "rule_220",
+                                                                                                          "text": null,
+                                                                                                          "children": [
+                                                                                                            {
+                                                                                                              "kind": "rule_221",
+                                                                                                              "text": null,
+                                                                                                              "children": [
+                                                                                                                {
+                                                                                                                  "kind": "rule_509",
+                                                                                                                  "text": null,
+                                                                                                                  "children": [
+                                                                                                                    {
+                                                                                                                      "kind": "IDENTIFIER_CALL",
+                                                                                                                      "text": "count(",
+                                                                                                                      "children": []
+                                                                                                                    }
+                                                                                                                  ]
+                                                                                                                },
+                                                                                                                {
+                                                                                                                  "kind": "rule_482",
+                                                                                                                  "text": null,
+                                                                                                                  "children": []
+                                                                                                                },
+                                                                                                                {
+                                                                                                                  "kind": "CLOSEPAREN",
+                                                                                                                  "text": ")",
+                                                                                                                  "children": []
+                                                                                                                }
+                                                                                                              ]
+                                                                                                            }
+                                                                                                          ]
+                                                                                                        }
+                                                                                                      ]
+                                                                                                    }
+                                                                                                  ]
+                                                                                                },
+                                                                                                {
+                                                                                                  "kind": "rule_510",
+                                                                                                  "text": null,
+                                                                                                  "children": []
+                                                                                                }
+                                                                                              ]
+                                                                                            }
+                                                                                          ]
+                                                                                        },
+                                                                                        {
+                                                                                          "kind": "rule_475",
+                                                                                          "text": null,
+                                                                                          "children": []
+                                                                                        }
+                                                                                      ]
+                                                                                    }
+                                                                                  ]
+                                                                                },
+                                                                                {
+                                                                                  "kind": "rule_474",
+                                                                                  "text": null,
+                                                                                  "children": []
+                                                                                }
+                                                                              ]
+                                                                            },
+                                                                            {
+                                                                              "kind": "rule_473",
+                                                                              "text": null,
+                                                                              "children": []
+                                                                            }
+                                                                          ]
+                                                                        },
+                                                                        {
+                                                                          "kind": "rule_472",
+                                                                          "text": null,
+                                                                          "children": []
+                                                                        }
+                                                                      ]
+                                                                    }
+                                                                  ]
+                                                                },
+                                                                {
+                                                                  "kind": "rule_470",
+                                                                  "text": null,
+                                                                  "children": []
+                                                                }
+                                                              ]
+                                                            },
+                                                            {
+                                                              "kind": "rule_469",
+                                                              "text": null,
+                                                              "children": []
+                                                            }
+                                                          ]
+                                                        }
+                                                      ]
+                                                    }
+                                                  ]
+                                                },
+                                                {
+                                                  "kind": "rule_452",
+                                                  "text": null,
+                                                  "children": []
+                                                }
+                                              ]
+                                            },
+                                            {
+                                              "kind": "rule_454",
+                                              "text": null,
+                                              "children": [
+                                                {
+                                                  "kind": "rule_167",
+                                                  "text": null,
+                                                  "children": [
+                                                    {
+                                                      "kind": "BY",
+                                                      "text": "by",
+                                                      "children": []
+                                                    },
+                                                    {
+                                                      "kind": "rule_188",
+                                                      "text": null,
+                                                      "children": [
+                                                        {
+                                                          "kind": "rule_189",
+                                                          "text": null,
+                                                          "children": [
+                                                            {
+                                                              "kind": "rule_191",
+                                                              "text": null,
+                                                              "children": [
+                                                                {
+                                                                  "kind": "rule_193",
+                                                                  "text": null,
+                                                                  "children": [
+                                                                    {
+                                                                      "kind": "rule_198",
+                                                                      "text": null,
+                                                                      "children": [
+                                                                        {
+                                                                          "kind": "rule_199",
+                                                                          "text": null,
+                                                                          "children": [
+                                                                            {
+                                                                              "kind": "rule_201",
+                                                                              "text": null,
+                                                                              "children": [
+                                                                                {
+                                                                                  "kind": "rule_203",
+                                                                                  "text": null,
+                                                                                  "children": [
+                                                                                    {
+                                                                                      "kind": "rule_204",
+                                                                                      "text": null,
+                                                                                      "children": [
+                                                                                        {
+                                                                                          "kind": "rule_208",
+                                                                                          "text": null,
+                                                                                          "children": [
+                                                                                            {
+                                                                                              "kind": "rule_476",
+                                                                                              "text": null,
+                                                                                              "children": []
+                                                                                            },
+                                                                                            {
+                                                                                              "kind": "rule_209",
+                                                                                              "text": null,
+                                                                                              "children": [
+                                                                                                {
+                                                                                                  "kind": "rule_210",
+                                                                                                  "text": null,
+                                                                                                  "children": [
+                                                                                                    {
+                                                                                                      "kind": "rule_225",
+                                                                                                      "text": null,
+                                                                                                      "children": [
+                                                                                                        {
+                                                                                                          "kind": "rule_226",
+                                                                                                          "text": null,
+                                                                                                          "children": [
+                                                                                                            {
+                                                                                                              "kind": "rule_257",
+                                                                                                              "text": null,
+                                                                                                              "children": [
+                                                                                                                {
+                                                                                                                  "kind": "rule_266",
+                                                                                                                  "text": null,
+                                                                                                                  "children": [
+                                                                                                                    {
+                                                                                                                      "kind": "rule_261",
+                                                                                                                      "text": null,
+                                                                                                                      "children": [
+                                                                                                                        {
+                                                                                                                          "kind": "IDENTIFIER",
+                                                                                                                          "text": "State",
+                                                                                                                          "children": []
+                                                                                                                        }
+                                                                                                                      ]
+                                                                                                                    }
+                                                                                                                  ]
+                                                                                                                }
+                                                                                                              ]
+                                                                                                            },
+                                                                                                            {
+                                                                                                              "kind": "rule_484",
+                                                                                                              "text": null,
+                                                                                                              "children": []
+                                                                                                            }
+                                                                                                          ]
+                                                                                                        }
+                                                                                                      ]
+                                                                                                    }
+                                                                                                  ]
+                                                                                                },
+                                                                                                {
+                                                                                                  "kind": "rule_510",
+                                                                                                  "text": null,
+                                                                                                  "children": []
+                                                                                                }
+                                                                                              ]
+                                                                                            }
+                                                                                          ]
+                                                                                        },
+                                                                                        {
+                                                                                          "kind": "rule_475",
+                                                                                          "text": null,
+                                                                                          "children": []
+                                                                                        }
+                                                                                      ]
+                                                                                    }
+                                                                                  ]
+                                                                                },
+                                                                                {
+                                                                                  "kind": "rule_474",
+                                                                                  "text": null,
+                                                                                  "children": []
+                                                                                }
+                                                                              ]
+                                                                            },
+                                                                            {
+                                                                              "kind": "rule_473",
+                                                                              "text": null,
+                                                                              "children": []
+                                                                            }
+                                                                          ]
+                                                                        },
+                                                                        {
+                                                                          "kind": "rule_472",
+                                                                          "text": null,
+                                                                          "children": []
+                                                                        }
+                                                                      ]
+                                                                    }
+                                                                  ]
+                                                                },
+                                                                {
+                                                                  "kind": "rule_470",
+                                                                  "text": null,
+                                                                  "children": []
+                                                                }
+                                                              ]
+                                                            },
+                                                            {
+                                                              "kind": "rule_469",
+                                                              "text": null,
+                                                              "children": []
+                                                            }
+                                                          ]
+                                                        }
+                                                      ]
+                                                    },
+                                                    {
+                                                      "kind": "rule_455",
+                                                      "text": null,
+                                                      "children": []
+                                                    },
+                                                    {
+                                                      "kind": "rule_456",
+                                                      "text": null,
+                                                      "children": []
+                                                    }
+                                                  ]
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "kind": "rule_326",
+                                  "text": null,
+                                  "children": []
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "rule_301",
+          "text": null,
+          "children": []
+        },
+        {
+          "kind": "rule_302",
+          "text": null,
+          "children": []
+        }
+      ]
+    }
+  ]
+}
