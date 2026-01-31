@@ -1,9 +1,9 @@
 use axum::{
+    Router,
     extract::Json,
     http::StatusCode,
     response::{Html, IntoResponse},
     routing::{get, post},
-    Router,
 };
 use kusto_gen_core::{execute_plan, parse_kql, plan_kql};
 use serde::{Deserialize, Serialize};
@@ -23,7 +23,9 @@ enum ParseResponse {
         plan: kusto_gen_core::Plan,
         execution: kusto_gen_core::ExecutionResult,
     },
-    Error { message: String },
+    Error {
+        message: String,
+    },
 }
 
 #[tokio::main]

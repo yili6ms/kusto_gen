@@ -1,6 +1,6 @@
 use serde::Serialize;
 
-use crate::kql::{lex_tokens_with_text, parse_kql, AstNode, TokenInfo};
+use crate::kql::{AstNode, TokenInfo, lex_tokens_with_text, parse_kql};
 
 #[derive(Debug, Serialize)]
 pub struct Plan {
@@ -9,11 +9,24 @@ pub struct Plan {
 
 #[derive(Debug, Clone, Serialize)]
 pub enum PlanStep {
-    Source { expression: String },
-    Pipe { operator: String, arguments: String },
-    Where { predicate: String },
-    Summarize { aggregations: String, by: Vec<String> },
-    Join { right: String, on: Vec<String> },
+    Source {
+        expression: String,
+    },
+    Pipe {
+        operator: String,
+        arguments: String,
+    },
+    Where {
+        predicate: String,
+    },
+    Summarize {
+        aggregations: String,
+        by: Vec<String>,
+    },
+    Join {
+        right: String,
+        on: Vec<String>,
+    },
 }
 
 pub fn plan_kql(input: &str) -> Result<Plan, String> {
@@ -161,14 +174,12 @@ fn join_tokens(tokens: &[TokenInfo]) -> String {
         }
         let no_space_before = matches!(
             tok.kind.as_str(),
-            "COMMA"
-                | "DOT"
-                | "CLOSEPAREN"
-                | "CLOSEBRACKET"
-                | "CLOSEBRACE"
-                | "SEMICOLON"
-        ) || text.starts_with(')') || text.starts_with(',') || text.starts_with('.');
-        let no_space_after = out.ends_with('(') || out.ends_with('[') || out.ends_with('{') || out.ends_with('.');
+            "COMMA" | "DOT" | "CLOSEPAREN" | "CLOSEBRACKET" | "CLOSEBRACE" | "SEMICOLON"
+        ) || text.starts_with(')')
+            || text.starts_with(',')
+            || text.starts_with('.');
+        let no_space_after =
+            out.ends_with('(') || out.ends_with('[') || out.ends_with('{') || out.ends_with('.');
         if out.is_empty() {
             out.push_str(text);
         } else if no_space_before || no_space_after {

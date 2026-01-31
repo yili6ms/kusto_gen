@@ -1,4 +1,4 @@
-use kusto_gen_core::{plan_kql, PlanStep};
+use kusto_gen_core::{PlanStep, plan_kql};
 
 #[test]
 fn plan_pipe_where_summarize() {
@@ -44,10 +44,7 @@ fn plan_summarize_with_bin() {
     match &plan.steps[1] {
         PlanStep::Summarize { aggregations, by } => {
             assert!(aggregations.contains("Failures"));
-            let normalized: Vec<String> = by
-                .iter()
-                .map(|s| s.replace(", ", ","))
-                .collect();
+            let normalized: Vec<String> = by.iter().map(|s| s.replace(", ", ",")).collect();
             assert_eq!(
                 normalized,
                 vec!["Account".to_string(), "bin(TimeGenerated,5m)".to_string()]

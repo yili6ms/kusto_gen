@@ -25,14 +25,8 @@ pub fn execute_plan(plan: &Plan) -> ExecutionResult {
     let mut results = Vec::new();
     for (idx, step) in plan.steps.iter().cloned().enumerate() {
         let (status, details) = match &step {
-            PlanStep::Source { expression } => (
-                StepStatus::Ok,
-                format!("source({expression})"),
-            ),
-            PlanStep::Where { predicate } => (
-                StepStatus::Ok,
-                format!("filter({predicate})"),
-            ),
+            PlanStep::Source { expression } => (StepStatus::Ok, format!("source({expression})")),
+            PlanStep::Where { predicate } => (StepStatus::Ok, format!("filter({predicate})")),
             PlanStep::Summarize { aggregations, by } => (
                 StepStatus::Ok,
                 format!("summarize(aggs={aggregations}, by={})", by.join(", ")),
@@ -41,10 +35,10 @@ pub fn execute_plan(plan: &Plan) -> ExecutionResult {
                 StepStatus::Ok,
                 format!("join(right={right}, on={})", on.join(", ")),
             ),
-            PlanStep::Pipe { operator, arguments } => (
-                StepStatus::Ok,
-                format!("{operator}({arguments})"),
-            ),
+            PlanStep::Pipe {
+                operator,
+                arguments,
+            } => (StepStatus::Ok, format!("{operator}({arguments})")),
         };
         results.push(ExecutionStepResult {
             step,

@@ -30,8 +30,7 @@ fn lex_bracketed_identifier() {
 fn lex_numbers() {
     let tokens = lex_tokens("1 2.5 .25 3e2 4.5E-1").unwrap();
     assert!(
-        tokens.contains(&"LONGLITERAL".to_string())
-            || tokens.contains(&"REALLITERAL".to_string())
+        tokens.contains(&"LONGLITERAL".to_string()) || tokens.contains(&"REALLITERAL".to_string())
     );
 }
 

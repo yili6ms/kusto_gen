@@ -7,7 +7,9 @@ use serde_json::Value;
 
 fn fixture_path(name: &str) -> String {
     let root = Path::new(env!("CARGO_MANIFEST_DIR"));
-    root.join("tests").join("fixtures").join(name)
+    root.join("tests")
+        .join("fixtures")
+        .join(name)
         .to_string_lossy()
         .to_string()
 }
@@ -40,12 +42,7 @@ fn cli_golden_print() {
 fn cli_golden_pipe_where_summarize() {
     let mut cmd = Command::new(cargo_bin!("kusto_gen"));
     let output = cmd
-        .args([
-            "--file",
-            &fixture_path("pipe.kql"),
-            "--format",
-            "json",
-        ])
+        .args(["--file", &fixture_path("pipe.kql"), "--format", "json"])
         .assert()
         .success()
         .get_output()

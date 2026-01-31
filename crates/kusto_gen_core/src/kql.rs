@@ -1,5 +1,5 @@
 use lrlex::lrlex_mod;
-use lrpar::{lrpar_mod, Lexeme, Lexer};
+use lrpar::{Lexeme, Lexer, lrpar_mod};
 use serde::Serialize;
 use std::collections::BTreeMap;
 

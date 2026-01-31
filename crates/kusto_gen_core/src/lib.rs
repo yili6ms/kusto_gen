@@ -1,7 +1,7 @@
+pub mod exec;
 pub mod kql;
 pub mod plan;
-pub mod exec;
 
-pub use kql::{analyze_ast, parse_kql, lex_tokens, AstAnalysis, AstNode};
-pub use plan::{plan_kql, Plan, PlanStep};
-pub use exec::{execute_plan, ExecutionResult, ExecutionStepResult, StepStatus};
+pub use exec::{ExecutionResult, ExecutionStepResult, StepStatus, execute_plan};
+pub use kql::{AstAnalysis, AstNode, analyze_ast, lex_tokens, parse_kql};
+pub use plan::{Plan, PlanStep, plan_kql};
