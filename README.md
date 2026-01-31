@@ -1,4 +1,5 @@
 # kusto_gen
+[![CI](https://github.com/yili6ms/kusto_gen/actions/workflows/ci.yml/badge.svg)](https://github.com/yili6ms/kusto_gen/actions/workflows/ci.yml)
 
 Kusto Query Language (KQL) lexer + parser built with lrlex/lrpar, using the official Microsoft grammar as the source of truth.
 
