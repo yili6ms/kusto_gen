@@ -79,6 +79,18 @@ Start the Axum web UI:
 
 Then open `http://localhost:3000`.
 
+One-run onboarding (installs npm deps, builds Tailwind, starts server):
+
+```
+./scripts/onboard_web.sh
+```
+
+Windows:
+
+```
+./scripts/onboard_web.ps1
+```
+
 Tailwind is built locally. If you want to build CSS manually:
 
 ```

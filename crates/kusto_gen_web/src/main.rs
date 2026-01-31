@@ -78,37 +78,37 @@ async fn parse(Json(payload): Json<ParseRequest>) -> impl IntoResponse {
 }
 
 const INDEX_HTML: &str = r#"<!doctype html>
-<html lang=\"en\">
+<html lang="en">
   <head>
-    <meta charset=\"utf-8\" />
-    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Kusto Gen Web</title>
-    <link rel=\"stylesheet\" href=\"/static/tailwind.css\" />
+    <link rel="stylesheet" href="/static/tailwind.css" />
   </head>
-  <body class=\"min-h-screen bg-slate-950 text-slate-100\">
-    <div class=\"mx-auto max-w-7xl px-6 py-8\">
-      <div class=\"flex items-center justify-between\">
-        <h1 class=\"text-2xl font-semibold tracking-tight\">KQL Parser</h1>
-        <div class=\"text-sm text-slate-400\">Axum + Tailwind</div>
+  <body class="min-h-screen bg-slate-950 text-slate-100">
+    <div class="mx-auto max-w-7xl px-6 py-8">
+      <div class="flex items-center justify-between">
+        <h1 class="text-2xl font-semibold tracking-tight">KQL Parser</h1>
+        <div class="text-sm text-slate-400">Axum + Tailwind</div>
       </div>
-      <div id=\"fileWarning\" class=\"mt-4 hidden rounded-lg border border-amber-500/30 bg-amber-500/10 px-4 py-2 text-sm text-amber-200\">
+      <div id="fileWarning" class="mt-4 hidden rounded-lg border border-amber-500/30 bg-amber-500/10 px-4 py-2 text-sm text-amber-200">
         This page is opened from a file URL. Start the server and open http://localhost:3000 for parsing to work.
       </div>
-      <div class=\"mt-6 grid gap-6 lg:grid-cols-2\">
-        <div class=\"flex flex-col gap-2\">
-          <label for=\"kql\" class=\"text-sm uppercase tracking-wide text-slate-400\">KQL</label>
-          <textarea id=\"kql\" class=\"h-[500px] w-full resize-none rounded-xl border border-slate-800 bg-slate-900/60 p-4 font-mono text-sm text-slate-100 outline-none focus:border-cyan-500\">SecurityEvent
+      <div class="mt-6 grid gap-6 lg:grid-cols-2">
+        <div class="flex flex-col gap-2">
+          <label for="kql" class="text-sm uppercase tracking-wide text-slate-400">KQL</label>
+          <textarea id="kql" class="h-[500px] w-full resize-none rounded-xl border border-slate-800 bg-slate-900/60 p-4 font-mono text-sm text-slate-100 outline-none focus:border-cyan-500">SecurityEvent
 | where EventID == 4625
 | summarize Failures = count() by Account, bin(TimeGenerated, 5m)
 | where Failures > 10</textarea>
-          <div class=\"flex items-center gap-3\">
-            <button id=\"parseBtn\" type=\"button\" class=\"rounded-lg bg-cyan-500 px-4 py-2 text-sm font-semibold text-slate-950 hover:bg-cyan-400\">Parse</button>
-            <span id=\"status\" class=\"text-sm text-slate-400\"></span>
+          <div class="flex items-center gap-3">
+            <button id="parseBtn" type="button" class="rounded-lg bg-cyan-500 px-4 py-2 text-sm font-semibold text-slate-950 hover:bg-cyan-400">Parse</button>
+            <span id="status" class="text-sm text-slate-400"></span>
           </div>
         </div>
-        <div class=\"flex flex-col gap-2\">
-          <label for=\"result\" class=\"text-sm uppercase tracking-wide text-slate-400\">Result</label>
-          <pre id=\"result\" class=\"h-[500px] overflow-auto rounded-xl border border-slate-800 bg-slate-900/60 p-4 text-xs text-slate-100\">// Parse output will appear here</pre>
+        <div class="flex flex-col gap-2">
+          <label for="result" class="text-sm uppercase tracking-wide text-slate-400">Result</label>
+          <pre id="result" class="h-[500px] overflow-auto rounded-xl border border-slate-800 bg-slate-900/60 p-4 text-xs text-slate-100">// Parse output will appear here</pre>
         </div>
       </div>
     </div>
